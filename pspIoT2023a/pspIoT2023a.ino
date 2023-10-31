@@ -24,10 +24,6 @@ DallasTemperature sensors(&oneWire);
 const char* ssid = "GUEST";
 const char* password = "";
 
-//----------------------------------
-//const char* ssid = "Feelur";
-//const char* password = "nisa12345";
-
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
